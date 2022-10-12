@@ -23,7 +23,7 @@ jobs:
 
       - run: npm run build
         env:
-          TURBO_TOKEN: RT9WNIUQxsmk4HBogtd3HNlJ
+          TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
           TURBO_TEAM: girardi-ui
 
       - name: Deploy storybook
