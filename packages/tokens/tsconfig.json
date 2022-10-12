@@ -1,0 +1,4 @@
+{
+  "extends": "@girardi-ui/ts-config/base.json",
+  "include": ["src"]
+}
