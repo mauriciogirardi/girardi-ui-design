@@ -20,6 +20,9 @@ jobs:
       - run: npm ci
 
       - run: npm run build
+        env:
+          TURBO_TOKEN: RT9WNIUQxsmk4HBogtd3HNlJ
+          TURBO_TEAM: girardi-ui
 
       - name: Deploy storybook
         working-directory: ./packages/docs
