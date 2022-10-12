@@ -25,6 +25,7 @@ export default {
         type: 'boolean',
       },
     },
+
     onClick: {
       action: 'click',
     },
@@ -67,5 +68,12 @@ export const WithIcon: StoryObj<ButtonProps> = {
         <ArrowRight weight="bold" />
       </>
     ),
+  },
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+    },
   },
 }
