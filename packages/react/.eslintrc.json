@@ -1,0 +1,3 @@
+{
+  "extends": "@girardi-ui/eslint-config"
+}
