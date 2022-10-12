@@ -1,0 +1,2 @@
+import{A as r}from"./index.7570c4b3.js";import"./index.f85418d6.js";import"./iframe.d248dbdc.js";import"./index.21784242.js";import"./jsx-runtime.72c4c48c.js";const c={title:"Data display/Avatar",component:r,args:{src:"https://github.com/mauriciogirardi.png",alt:"Mauricio Girardi"},argTypes:{src:{control:{type:"text"}}}},p={},m={args:{src:void 0}},e=["Primary","WithFallback"];export{p as Primary,m as WithFallback,e as __namedExportsOrder,c as default};
+//# sourceMappingURL=Avatar.stories.2a74617f.js.map
